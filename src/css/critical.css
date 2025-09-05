@@ -97,7 +97,7 @@
     text-align: center;
     letter-spacing: .1em;
     font-weight: 700;
-    color: var(--primary);
+    color: var(--headerColor);
     margin-bottom: 1rem;
     display: block;
   }
@@ -133,9 +133,9 @@
     text-decoration: none;
     font-weight: 700;
     margin: 0 0.5rem 1rem 0.5rem;
-    color: var(--headerColor);
+    color: var(--primary);
     padding: 0;
-    background-color: var(--primary);
+    background-color: var(--headerColor);
     display: inline-block;
     position: relative;
     z-index: 1;

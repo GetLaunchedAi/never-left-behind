@@ -120,10 +120,10 @@
     font-weight: 700;
     text-align: center;
     margin: 0;
-    color: #fff;
+    color: var(--primary);
     min-width: 9.375rem;
     padding: 0 1.5rem;
-    background-color: var(--primary);
+    background-color: var(--headerColor);
     border-radius: 0.25rem;
     display: inline-block;
     position: relative;
@@ -154,6 +154,7 @@
   }
   #cs-contact-242 .cs-submit:hover {
     cursor: pointer;
+    color: white;
   }
   #cs-contact-242 .cs-right-section {
     width: 100%;

@@ -723,10 +723,10 @@
     font-weight: 700;
     text-align: center;
     margin: 0;
-    color: #fff;
+    color: var(--primary);
     min-width: 9.375rem;
     padding: 0 1.5rem;
-    background-color: var(--primary);
+    background-color: var(--headerColor);
     border-radius: 0.25rem;
     display: inline-block;
     position: relative;
@@ -885,10 +885,10 @@
     font-weight: 700;
     text-align: center;
     margin: 0;
-    color: white;
+    color: var(--primary);
     min-width: 9.375rem;
     padding: 0 1.5rem;
-    background-color: var(--primary);
+    background-color: var(--headerColor);
     border-radius: 0.25rem;
     display: inline-block;
     position: relative;
