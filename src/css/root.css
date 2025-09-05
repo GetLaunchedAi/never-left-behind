@@ -268,9 +268,9 @@
     overflow: visible;
   }
 
-  body.dark-mode #navigation #navbar-menu .dropdown.open .dropdown-menu {
+  /* body.dark-mode #navigation #navbar-menu .dropdown.open .dropdown-menu {
     background-color: var(--medium);
-  }
+  } */
 
   .dropdown-menu li a {
     color: #ffffff;
@@ -1077,5 +1077,5 @@
 }
 
 body.dark-mode #navigation #navbar-menu .dropdown.open .dropdown-menu {
-  background-color: #061623 !important;
+  background-color: #061623;
 }
