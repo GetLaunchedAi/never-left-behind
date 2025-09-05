@@ -1075,3 +1075,7 @@
 .service-link:hover {
   color: var(--primary) !important;
 }
+
+body.dark-mode #navigation #navbar-menu .dropdown.open .dropdown-menu {
+  background-color: #061623 !important;
+}
