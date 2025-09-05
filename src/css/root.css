@@ -694,7 +694,7 @@
   }
 
   body.dark-mode #navigation #navbar-menu ul li a.active {
-    color: var(--primary);
+    color: white;
   }
 }
 
@@ -721,7 +721,7 @@
   }
 
   body.dark-mode #navigation #navbar-menu ul li a.active {
-    color: var(--primary);
+    color: white;
   }
 }
 
