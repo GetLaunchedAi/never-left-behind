@@ -355,7 +355,7 @@
   }
   #faq-326 .cs-faq-item.active .cs-button {
     background-color: var(--primary);
-    color: var(--secondaryLight);
+    color: #fff;
   }
   #faq-326 .cs-faq-item.active .cs-button:before {
     background-color: var(--secondaryLight);

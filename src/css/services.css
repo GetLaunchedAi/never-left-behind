@@ -734,6 +734,9 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
   }
+  #faq-254 .cs-button-solid:hover {
+    color: #fff;
+  }
   #faq-254 .cs-button-solid:before {
     content: "";
     position: absolute;
@@ -895,6 +898,9 @@
     z-index: 1;
     /* prevents padding from adding to the width */
     box-sizing: border-box;
+  }
+  #services-563 .cs-button-solid:hover {
+    color: #fff;
   }
   #services-563 .cs-button-solid:before {
     content: "";
