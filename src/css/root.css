@@ -696,6 +696,10 @@
   body.dark-mode #navigation #navbar-menu ul li a.active {
     color: white;
   }
+
+  .login-btn {
+    display: none;
+  }
 }
 
 /* Dark Mode Desktop */
@@ -1058,6 +1062,26 @@
 
   #footer .credit .copyright {
     display: inline-block;
+  }
+
+  .login-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    line-height: 3.125em;
+    height: 3.125rem;
+    text-align: center;
+    padding: 0 1.875rem;
+    position: relative;
+    z-index: 1;
+    background-color: var(--headerColor);
+    color: #000 !important;
+    transition: color 0.3s;
+    transition-delay: 0.1s;
+    margin-left: .5rem;
   }
 }
 

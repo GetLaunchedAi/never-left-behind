@@ -38,9 +38,12 @@
                         {{ entry.title }}
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="service-link" href="/veteran-support-rehabilitation/">Comprehensive Veteran Support & Rehabilitation</a></li>
-                        <li><a class="service-link" href="/vocational-training-career-transition/">Vocational Training & Career Transition</a></li>
-                        <li><a class="service-link" href="/faith-guided-growth-community-integration/">Faith-Guided Growth & Community Reintegration</a></li>
+                        <li><a class="service-link" href="/veteran-support-rehabilitation/">Comprehensive Veteran
+                                Support & Rehabilitation</a></li>
+                        <li><a class="service-link" href="/vocational-training-career-transition/">Vocational Training &
+                                Career Transition</a></li>
+                        <li><a class="service-link" href="/faith-guided-growth-community-integration/">Faith-Guided
+                                Growth & Community Reintegration</a></li>
                     </ul>
 
                     {% else %}
@@ -50,6 +53,9 @@
                     {% endif %}
                 </li>
                 {%- endfor %}
+                <li>
+                    <button href="/login/" class="login-btn">Log In</button>
+                </li>
             </ul>
         </nav>
 
