@@ -6,7 +6,9 @@ const hamburgerMenu = document.querySelector("#navigation .hamburger-menu");
 const serviceMenu = document.querySelector("#navigation .dropdown");
 const about = document.querySelector('#About\\ Us')
 const contact = document.querySelector('#Contact')
-const projects = document.querySelector('#Projects')
+// const projects = document.querySelector('#Projects')
+const testimonials = document.querySelector('#Testimonials')
+const login = document.querySelector('#Login')
 
 const screenWidth = window.screen.width;
 
@@ -33,7 +35,10 @@ serviceMenu.addEventListener('click', function () {
         if (screenWidth < 770) {
             about.style.display = 'none'
             contact.style.display = 'none'
-            projects.style.display = 'none'
+            // projects.style.display = 'none'
+            testimonials.style.display = 'none'
+            login.style.display = 'none'
+            
         }
 
 
@@ -43,7 +48,9 @@ serviceMenu.addEventListener('click', function () {
         if (screenWidth < 770) {
             about.style.display = 'block'
             contact.style.display = 'block'
-            projects.style.display = 'block'
+            // projects.style.display = 'block'
+            testimonials.style.display = 'block'
+            login.style.display = 'block'
         }
 
 

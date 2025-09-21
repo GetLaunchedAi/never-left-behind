@@ -698,7 +698,25 @@
   }
 
   .login-btn {
-    display: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    line-height: 3.125em;
+    height: 3.125rem;
+    text-align: center;
+    padding: 0 1.875rem;
+    position: relative;
+    z-index: 1;
+    background-color: var(--headerColor);
+    color: #000 !important;
+    transition: color 0.3s;
+    transition-delay: 0.1s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
