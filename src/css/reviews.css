@@ -270,3 +270,12 @@
     display: none;
   }
 }
+
+.tcs {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--bodyTextColor);
+  font-weight: 600;
+  margin-top: 2rem;
+  width: 100%;
+}
