@@ -347,3 +347,30 @@
     font-weight: bold;
   }
 }
+
+/* *** ATTEMPT 1: Target the known class names with high specificity *** */
+/* You need to use the class names you found by inspecting the modal */
+
+/* If Zeffy injects a specific container class for the modal: */
+.zeffy-modal-container, 
+#zeffy-modal,
+.zeffy-iframe-wrapper {
+    z-index: 999999 !important;
+}
+
+/* If Zeffy uses a backdrop div: */
+.zeffy-backdrop {
+    z-index: 999998 !important; /* Backdrop should be just under the modal */
+}
+
+/* *** ATTEMPT 2: The Nuclear Option (If the class name is unknown) *** */
+/* This targets the highest likely containers for embedded content. */
+/* WARNING: Only use this if the others fail, as it's very broad. */
+body > div[style*="z-index"] {
+    z-index: 999999 !important;
+}
+
+/* Target the Zeffy IFRAME itself, which might have its own stacking context */
+iframe[src*="zeffy.com/embed"] {
+    z-index: 999999 !important;
+}

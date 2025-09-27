@@ -279,3 +279,33 @@
   margin-top: 2rem;
   width: 100%;
 }
+
+#reviews-566 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #reviews-566 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 50rem;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #reviews-566 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin-bottom: 1rem;
+    color: var(--bodyTextColor);
+  }

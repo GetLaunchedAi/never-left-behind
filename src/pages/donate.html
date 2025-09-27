@@ -1,0 +1,115 @@
+---
+layout: "base.html"
+description: "Support Never Left Behind, Even When Your Home Inc. by making a tax-deductible donation. Find options for
+Zelle, PayPal, and credit card to help U.S. veterans access lodging, rehabilitation, and vocational training."
+metaTitle: "Donate to Never Left Behind | Support Veterans"
+tagTitle: "Donate"
+preloadImg: "/images/landing.png"
+preloadCSS: "/css/donate.css"
+permalink: "donate/"
+eleventyNavigation:
+  key: Donate
+  order: 500
+---
+
+<section id="int-hero">
+  <h1 id="home-h">Donate & Support</h1>
+  {% image './src/images/landing.png', 'A U.S. flag with a veteran in the background', '', 'lazy',
+  '(max-width: 850px) 850px, 1920px'%}
+</section>
+
+<section id="sbs">
+  <section id="donation-options">
+    <div class="cs-container">
+      <div class="cs-content">
+        <span class="cs-topper">Make a Difference</span>
+        <h2 class="cs-title">Your Gift Keeps Our Promise: No Soldier Left Behind</h2>
+        <p class="cs-text">
+          Every dollar you donate goes directly toward providing **lodging, meals, rehabilitation, and vocational
+          training** for U.S. veterans in need. Never Left Behind, Even When Your Home Inc. is a mission built on God’s
+          love and the principle of honor. Your support is vital to our work.
+        </p>
+      </div>
+
+      <div class="cs-options-group">
+        <div class="cs-option-card cs-zelle">
+          <div class="cs-icon-wrapper">
+            <svg class="cs-icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.5l-4-4 1.41-1.41L11 15.17l5.59-5.59L18 10l-7 7.5z" />
+            </svg>
+          </div>
+          <h3>Donate via Zelle</h3>
+          <p>
+            Zelle is a fast, easy, and secure way to send money directly from your bank account. **100% of your
+            donation** comes directly to us with no fees.
+          </p>
+          <div class="cs-detail-box">
+            <span class="cs-detail-label">Zelle Recipient Email:</span>
+            <a class="cs-detail-value" href="mailto:neverleftbehindwyh@gmail.com"
+              aria-label="Zelle Email Address">neverleftbehindwyh@gmail.com</a>
+          </div>
+          <p class="cs-small-print">
+            Please verify the recipient name when sending: **Never Left Behind, Even When Your Home Inc.**
+          </p>
+        </div>
+
+        <div class="cs-option-card cs-zeffy-donation">
+          <div class="cs-icon-wrapper">
+            <svg class="cs-icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M7 10.75V13c0 2.21 1.79 4 4 4h4c1.1 0 2-.9 2-2v-3h-6.25c-.97 0-1.75-.78-1.75-1.75V8.5h4c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5H7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5H12c.55 0 1-.45 1-1V5c0-1.66-1.34-3-3-3H6C4.34 2 3 3.34 3 5v8c0 2.76 2.24 5 5 5h6c2.21 0 4-1.79 4-4v-3h-4.25c-.97 0-1.75.78-1.75 1.75V16c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-2.25c0-1.66-1.34-3-3-3H7z" />
+            </svg>
+          </div>
+          <h3>Make a Secure Donation</h3>
+          <p>
+            Use our official donation form to make a quick and secure one-time or recurring gift. We accept all major
+            credit cards, Apple Pay, and Google Pay.
+          </p>
+          <a href="#" role="button" class="cs-button-solid"
+            zeffy-form-link="https://www.zeffy.com/embed/donation-form/donate-to-change-lives-3269?modal=true">
+            Donate with Zeffy
+          </a>
+        </div>
+
+        <div class="cs-option-card cs-card">
+          <div class="cs-icon-wrapper">
+            <svg class="cs-icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z" />
+            </svg>
+          </div>
+          <h3>Credit or Debit Card</h3>
+          <p>
+            Make a tax-deductible donation using any major credit or debit card through our secure payment gateway.
+          </p>
+          <a href="YOUR_CARD_PAYMENT_LINK" target="_blank" rel="noopener" class="cs-button-solid">
+            Pay by Card
+          </a>
+        </div>
+      </div>
+
+      <div class="cs-bottom-text">
+        <p>
+          **Tax Deductible:** Never Left Behind, Even When Your Home Inc. is a registered 501(c)(3) non-profit
+          organization. All donations are tax-deductible to the full extent of the law.
+        </p>
+      </div>
+    </div>
+  </section>
+</section>
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Have Questions or Want to Volunteer?
+    </h2>
+    <p>
+      Join Never Left Behind, Even When Your Home Inc. in honoring God’s mission and supporting veterans who sacrificed
+      for our country. We welcome volunteers and partners.
+    </p>
+    <a href="/contact/" class="button-solid">Get In Touch</a>
+  </div>
+  {% image './src/images/final_home_img.png', 'veterans supported by Never Left Behind',
+  '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920'%}
+</section>
